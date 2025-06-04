@@ -1,0 +1,6 @@
+{
+  "name": "btkok-confi",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "workspaceFolder": "/workspace",
+  "postCreateCommand": "pnpm install"
+}
