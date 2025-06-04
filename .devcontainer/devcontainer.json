@@ -1,6 +1,9 @@
 {
-  "name": "btkok-confi",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
-  "workspaceFolder": "/workspace",
-  "postCreateCommand": "pnpm install"
+  "name": "My Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {},
+  "postCreateCommand": "echo 'Klaar!'"
 }
+
+
+
