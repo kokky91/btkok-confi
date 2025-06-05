@@ -3,19 +3,17 @@
   "private": true,
   "scripts": {
     "build": "echo Gebruik pnpm build in apps/frontend of apps/admin",
-    "lint": "turbo run lint"
+    "lint": "turbo run lint",
+    "prepare": "husky install"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.21",
     "eslint": "^9.28.0",
+    "husky": "^8.0.0",
+    "postcss": "^8.5.4",
     "prettier": "^3.5.3",
+    "tailwindcss": "^4.1.8",
     "turbo": "^2.5.4"
   },
-  "packageManager": "pnpm@10.11.1",
-  "dependencies": {
-    "next": "^15.3.3",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
-  }
+  "packageManager": "pnpm@10.11.1"
 }
-
-

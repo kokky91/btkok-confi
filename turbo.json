@@ -6,6 +6,13 @@
       "outputs": [".next/**", "dist/**"]
     },
     "lint": {
+      "outputs": [],
+      "inputs": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
+    },
+    "dev": {
+      "cache": false
+    },
+    "test": {
       "outputs": []
     }
   }

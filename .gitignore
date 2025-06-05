@@ -15,7 +15,25 @@ out/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.pnpm-debug.log
+turbo.log
+
+# Turbo cache
+.turbo/
 
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Editor folders
+.vscode/
+
+# Build folders
+dist/
+build/
+
+# Lockfiles not used by pnpm
+package-lock.json
+yarn.lock
+
