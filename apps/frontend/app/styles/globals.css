@@ -1,8 +1,1 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* Custom styles */
-body {
-  @apply bg-white text-black;
-}
+body { font-family: sans-serif; padding: 1rem; background: #f8f8f8; }

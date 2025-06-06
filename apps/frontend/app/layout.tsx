@@ -1,12 +1,22 @@
 
 import './styles/globals.css';
-import type { ReactNode } from 'react';
+import Nav from './nav';
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export const metadata = {
+  title: 'BTKOK Frontend',
+  description: 'Gemaakt met Next.js 15',
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="nl">
-      <body>{children}</body>
+      <body>
+        <Nav />
+        {children}
+      </body>
     </html>
   );
 }
+
+
 

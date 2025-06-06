@@ -1,5 +1,6 @@
 
 import './styles/globals.css';
+import Nav from './nav';
 
 import type { ReactNode } from 'react';
 

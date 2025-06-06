@@ -1,7 +1,3 @@
-export default function Page() {
-  return (
-    <main>
-      <h1>App</h1>
-    </main>
-  );
+export default function HomePage() {
+  return <h2>Welkom bij de frontend-app!</h2>;
 }
