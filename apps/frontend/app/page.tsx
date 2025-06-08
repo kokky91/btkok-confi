@@ -1,3 +1,7 @@
 export default function HomePage() {
-  return <h2>Welkom bij de frontend-app!</h2>;
+  return (
+    <main>
+      <h1>Welkom bij de frontend-app!</h1>
+    </main>
+  );
 }
